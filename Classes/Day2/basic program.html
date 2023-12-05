@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: bisque;">
+    <center>
+        <h1 style="color: blue;">Basic C progrming</h1>
+    </center>
+    <p>
+        C program with at least 10 lines
+    </p>
+
+    <p>
+        This program includes a simple function add that takes two integers and returns their sum. In the main function, it declares two integers, calls the add function, and prints the result. Additionally, it uses a loop to print numbers from 1 to 5.
+    </p>
+
+    <pre>
+        #include <stdio.h>
+
+            int add(int a, int b) {
+                return a + b;
+            }
+            
+            int main() {
+                int num1 = 5, num2 = 7;
+                printf("Sum of %d and %d is: %d\n", num1, num2, add(num1, num2));
+                printf("Numbers 1 to 5: ");
+                for (int i = 1; i <= 5; ++i) {
+                  printf("%d ", i);
+             }
+             printf("\n");
+
+              return 0;
+            }
+
+            
+    </pre>
+    
+
+
+</body>
+</html>

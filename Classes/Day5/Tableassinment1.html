@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        color: rgb(54, 43, 36);
+        background-color: rgb(225, 170, 131);
+    }
+    th{
+        background-color: deepskyblue;
+    }
+    td{
+        color: rgb(7, 14, 7);
+    }
+    td:hover{
+        color: blue;
+        background-color: gold;
+    }
+th:hover{
+    background-color: peru;
+    transform: 1s;
+    border-radius: 50px;
+    border-color: magenta;
+    transition: 3s;
+}
+</style>
+<body>
+   <center><h1>Create the time table</h1></center>
+   <table border="1" cellspacing="0" cellpadding="10">
+    <tr >
+        <th rowspan="4" >DAY</th>
+    </tr>
+    <tr>
+        <th colspan="4"><h1>Seminar</h1></th>
+       
+    </tr>
+    <tr>
+        <th colspan="2">sedules</th>
+        <th rowspan="2" colspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Monday</th>
+        <td rowspan="2">8.00am</td>
+        <td rowspan="2">5.00pm</td>
+        <td>Indroductionof XML</td>
+        
+        
+    </tr>
+    <tr>
+        <td>Validity:DTD and Relax NG</td>
+    </tr>
+    <tr>
+        <th rowspan="4">Tuesday</th>
+    </tr>
+    <tr>
+        <td>8.00am</td>
+        <td>11.00am</td>
+        <td rowspan="1">XPath</td>
+    </tr>
+    <tr>
+<td>11:00 am</td>
+<td>2:0pm</td>
+<td rowspan="2">XSL transformaion</td>
+    </tr>
+    <tr>
+        <td>2:pm</td>
+        <td >5:00 pm</td>
+    </tr>
+    <tr>
+        <th>Wednesday</th>
+        <td>8.00 am</td>
+        <td>12.00 pm</td>
+        <td>XSL formatting objects</td>
+    </tr>
+
+
+
+   </table>
+</body>
+</html>
